@@ -154,7 +154,7 @@
    background-color: var(--basic-red);
    width: 220px;
    height: 42px;
-   background-image: url('image/logo-technomart.png');
+   background-image: url(image/logo-technomart.png);
    background-position: 50% 50%;
    background-repeat: no-repeat;
    box-shadow: 0 5px 0px #b52933;
