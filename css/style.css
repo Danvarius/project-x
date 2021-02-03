@@ -981,7 +981,7 @@
 }
 
 .new {
-   background-image: url(/image/Png/catalog-new.png);
+   background-image: url('https://danvarius.github.io/project-x/image/catalog-new.png');
    background-repeat: no-repeat;
    background-position: 100% 0;
 }
@@ -1299,49 +1299,49 @@ li.list-brands__item:nth-child(4n) {
 }
 
 .bosch {
-   background-image: url(/image/Png/Bosch.png);
+   background-image: url('https://danvarius.github.io/project-x/image/Bosch.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
 
 .makita {
-   background-image: url(/image/Png/Makita.png);
+   background-image: url('https://danvarius.github.io/project-x/image/Makita.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
 
 .dewalt {
-   background-image: url(/image/Png/Dewalt.png);
+   background-image: url('https://danvarius.github.io/project-x/image/Dewalt.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
 
 .interskol {
-   background-image: url(/image/Png/Interskol.png);
+   background-image: url('https://danvarius.github.io/project-x/image/Interskol.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
 
 .hitachi {
-   background-image: url(/image/Png/Hitachi.png);
+   background-image: url('https://danvarius.github.io/project-x/image/Hitachi.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
 
 .lg {
-   background-image: url(/image/Png/LG.png);
+   background-image: url('https://danvarius.github.io/project-x/image/LG.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
 
 .aeg {
-   background-image: url(/image/Png/AEG.png);
+   background-image: url('https://danvarius.github.io/project-x/image/AEG.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
 
 .metabo {
-   background-image: url(/image/Png/Metabo.png);
+   background-image: url('https://danvarius.github.io/project-x/image/Metabo.png');
    background-repeat: no-repeat;
    background-position: 50% 50%;
 }
@@ -1468,19 +1468,19 @@ li.list-brands__item:nth-child(4n) {
 }
 
 .car {
-   background-image: url(/image/Png/car-img.png);
+   background-image: url('https://danvarius.github.io/project-x/image/car-img.png');
    background-repeat: no-repeat;
    background-position: 100% 100%;
 }
 
 .garante {
-   background-image: url(/image/Png/garante-img.png);
+   background-image: url('https://danvarius.github.io/project-x/image/garante-img.png');
    background-repeat: no-repeat;
    background-position: 100% 100%;
 }
 
 .credit {
-   background-image: url(/image/Png/credit-img.png);
+   background-image: url('https://danvarius.github.io/project-x/image/credit-img.png');
    background-repeat: no-repeat;
    background-position: 100% 100%;
 }
@@ -2618,7 +2618,7 @@ li.item-power:last-child {
    display: block;
    width: 21px;
    height: 21px;
-   background-image: url(/image/Png/icon-close.png);
+   background-image: url('https://danvarius.github.io/project-x/image/icon-close.png');
    position: absolute;
    top: 21px;
    right: 11px;
@@ -2628,7 +2628,7 @@ li.item-power:last-child {
    display: block;
    width: 21px;
    height: 21px;
-   background-image: url(/image/Png/icon-close.png);
+   background-image: url('https://danvarius.github.io/project-x/image/icon-close.png');
    position: absolute;
    top: 21px;
    right: 11px;
@@ -2638,7 +2638,7 @@ li.item-power:last-child {
    display: block;
    width: 21px;
    height: 21px;
-   background-image: url(/image/Png/icon-close.png);
+   background-image: url('https://danvarius.github.io/project-x/image/icon-close.png');
    position: absolute;
    top: 21px;
    right: 11px;
