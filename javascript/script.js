@@ -95,3 +95,7 @@ divs.forEach(el => {
     el.querySelector('.buy-wrapper').classList.toggle('visually-hidden');
   })
 })
+
+/* Slider */
+
+

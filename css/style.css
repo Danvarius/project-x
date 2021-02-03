@@ -684,7 +684,6 @@
    position: relative;
    width: 572px;
    height: 220px;
-   
 }
 
 .offer-big-two {
@@ -693,7 +692,10 @@
    position: relative;
    width: 572px;
    height: 220px;
-   
+}
+
+.display {
+   display: block;
 }
 
 .offers__heading {
