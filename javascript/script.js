@@ -98,4 +98,19 @@ divs.forEach(el => {
 
 /* Slider */
 
+var offerTwo = document.querySelector(".offer-big-two");
+var pointerOne = document.querySelector(".offers__pointerones");
+var pointerTwo = document.querySelector(".offers__pointertwo");
+
+pointerTwo.addEventListener("click", function (evt) {
+   evt.preventDefault();
+   offerTwo.classList.add("display");
+});
+
+pointerOne.addEventListener("click", function (evt) {
+   evt.preventDefault();
+   offerTwo.classList.remove("display");
+});
+
+/* Delivery and etc */
 
