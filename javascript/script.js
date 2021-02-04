@@ -88,13 +88,15 @@ divs.forEach(el => {
    el.addEventListener('mouseover', () => {
      el.querySelector('.buy-wrapper').classList.toggle('visually-hidden');
    })
- })
+ });
 
 divs.forEach(el => {
   el.addEventListener('mouseout', () => {
     el.querySelector('.buy-wrapper').classList.toggle('visually-hidden');
   })
-})
+});
+
+
 
 /* Slider */
 
@@ -114,3 +116,30 @@ pointerOne.addEventListener("click", function (evt) {
 
 /* Delivery and etc */
 
+ var oneLink = document.querySelector(".item-link");
+ var twoLink = document.querySelector(".item-link-two");
+ var threeLink = document.querySelector(".item-link-three");
+ var aboutOne = document.querySelector(".about-advantage");
+ var aboutTwo = document.querySelector(".about-advantage-gar");
+ var aboutThree = document.querySelector(".about-advantage-cred");
+
+ oneLink.addEventListener("click", function (evt) {
+   evt.preventDefault();
+   aboutOne.classList.remove("visually-hidden");
+   aboutTwo.classList.add("visually-hidden");
+   aboutThree.classList.add("visually-hidden");
+});
+
+ twoLink.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    aboutTwo.classList.remove("visually-hidden");
+    aboutOne.classList.add("visually-hidden");
+    aboutThree.classList.add("visually-hidden");
+ });
+
+ threeLink.addEventListener("click", function (evt) {
+   evt.preventDefault();
+   aboutThree.classList.remove("visually-hidden");
+   aboutOne.classList.add("visually-hidden");
+   aboutTwo.classList.add("visually-hidden");
+});
