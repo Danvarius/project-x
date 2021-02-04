@@ -1106,14 +1106,17 @@ li.catalog-items:nth-child(9) {
    position: relative;
    top: 2px;
    right: 8px;
+   cursor: pointer;
 }
 
 .buy-popup:hover {
    background-color: var(--success);
+   cursor: pointer;
 }
 
 .buy-popup:active {
    background-color: #518534;
+   cursor: pointer;
 }
 
 .bookmarks-window {
