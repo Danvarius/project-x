@@ -1094,6 +1094,7 @@ li.catalog-items:nth-child(9) {
    top: 9px;
    border: none;
    box-shadow: 0 5px 0px #367315;
+   cursor: pointer;
 }
 
 .buy-popup::before {
