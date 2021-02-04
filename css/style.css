@@ -1459,6 +1459,7 @@ li.list-brands__item:nth-child(4n) {
    width: 240px;
    background-color: var(--basic-grey);
    border: none;
+   cursor: pointer;
 }
 
 .item-link:hover {
@@ -1490,6 +1491,7 @@ li.list-brands__item:nth-child(4n) {
    width: 240px;
    background-color: var(--basic-grey);
    border: none;
+   cursor: pointer;
 }
 
 .item-link-two:hover {
@@ -1521,6 +1523,7 @@ li.list-brands__item:nth-child(4n) {
    width: 240px;
    background-color: var(--basic-grey);
    border: none;
+   cursor: pointer;
 }
 
 .item-link-three:hover {
