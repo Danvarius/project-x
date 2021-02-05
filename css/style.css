@@ -1121,6 +1121,8 @@ li.catalog-items:nth-child(9) {
 
 .buy-popup:active {
    background-color: #518534;
+   border: none;
+   outline: none;
 }
 
 .bookmarks-window {
@@ -2922,11 +2924,11 @@ label.form-popup__label:nth-child(2) {
     z-index: 20;
     background-color: white;
     box-shadow: 0px 20px 40px rgba(41, 52, 73, 0.75);
-    opacity: 0;
+    display: none;
 }
 
 .popup-catalog-vis {
-   opacity: 1;
+   display: block;
    -webkit-animation: trick 0.6s ease-in;
            animation: trick 0.6s ease-in;
 }

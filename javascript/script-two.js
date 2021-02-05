@@ -14,7 +14,7 @@ item.forEach(el => {
   })
 })
 
-divs.forEach(el => { 
+item.forEach(el => { 
   el.addEventListener('click', () => { 
      document.querySelector('.popup-catalog').classList.add('popup-catalog-vis'); 
   });
