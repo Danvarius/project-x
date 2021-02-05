@@ -83,20 +83,31 @@ window.addEventListener("keydown", function (evt) {
 /* Popup-buy */
 
 const divs = document.querySelectorAll('.cards-list__item');
+var closeLinkThree = document.querySelector('.close-link-three');
+var catalogPopup = document.querySelector('.popup-catalog');
 
 divs.forEach(el => {
    el.addEventListener('mouseover', () => {
      el.querySelector('.buy-wrapper').classList.toggle('visually-hidden');
-   })
+   });
  });
 
 divs.forEach(el => {
   el.addEventListener('mouseout', () => {
     el.querySelector('.buy-wrapper').classList.toggle('visually-hidden');
-  })
+  });
 });
 
+divs.forEach(el => { 
+   el.addEventListener('click', () => { 
+      document.querySelector('.popup-catalog').classList.add('popup-catalog-vis'); 
+   });
+});
 
+closeLinkThree.addEventListener("click", function(evt) {
+   evt.preventDefault();
+   catalogPopup.classList.remove('popup-catalog-vis');
+})
 
 /* Slider */
 
