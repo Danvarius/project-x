@@ -109,6 +109,14 @@ closeLinkThree.addEventListener("click", function(evt) {
    catalogPopup.classList.remove('popup-catalog-vis');
 })
 
+window.addEventListener("keydown", function (evt) {
+   if (evt.keyCode === 27) {
+      if (catalogPopup.classList.contains("popup-catalog-vis")) {
+         evt.preventDefault();
+         catalogPopup.classList.remove("popup-catalog-vis");
+      }
+   }
+});
 /* Slider */
 
 var offerTwo = document.querySelector(".offer-big-two");

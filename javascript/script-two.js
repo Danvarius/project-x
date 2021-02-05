@@ -20,6 +20,15 @@ item.forEach(el => {
   });
 });
 
+window.addEventListener("keydown", function (evt) {
+  if (evt.keyCode === 27) {
+     if (catalogPopup.classList.contains("popup-catalog-vis")) {
+        evt.preventDefault();
+        catalogPopup.classList.remove("popup-catalog-vis");
+     }
+  }
+});
+
 closeLinkThree.addEventListener("click", function(evt) {
   evt.preventDefault();
   catalogPopup.classList.remove('popup-catalog-vis');
